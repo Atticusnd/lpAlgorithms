@@ -10,7 +10,7 @@ const inputValues = [
  
  const getPermutations = (input) => {
     if(!input){
-        console.log('There is no characters to permut');
+        console.log('There are no characters to permutate');
         return;
     }
     if(input.length === 1){
